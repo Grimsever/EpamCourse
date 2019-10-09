@@ -15,52 +15,55 @@ namespace Module2__4
             Console.WriteLine("1. Area");
             Console.WriteLine("2. Perimetr");
             string parameter = Console.ReadLine();
+            Console.WriteLine("Enter radius of the inscribed circle");
+            double.TryParse(Console.ReadLine(), out double R);
             switch (select)
             {
                 case "1":
-                    OutputDataOfTriangle(parameter);
+                    OutputDataOfTriangle(parameter, R);
+                    Console.WriteLine("\nAnd parametrs in other figures\n");
+                    OutputDataOfSquare(parameter, R);
+                    OutputDataOfCircle(parameter, R);
+
                     break;
                 case "2":
-                    OutputDataOfCircle(parameter);
+                    OutputDataOfCircle(parameter, R);
+                    Console.WriteLine("\nAnd parametrs in other figures\n");
+                    OutputDataOfTriangle(parameter, R);
+                    OutputDataOfSquare(parameter, R);
                     break;
                 case "3":
-                    OutputDataOfSquare(parameter);
+                    OutputDataOfSquare(parameter, R);
+                    Console.WriteLine("\nAnd parametrs in other figures\n");
+                    OutputDataOfCircle(parameter, R);
+                    OutputDataOfTriangle(parameter, R);
                     break;
                 default:
-                    Console.WriteLine("You made a mistake");
+                    Console.WriteLine("You made a mistake in input");
                     break;
             }
-            
-
         }
-        static void OutputDataOfTriangle(string param)
+        static void OutputDataOfTriangle(string param, double R)
         {
-            Console.WriteLine("Enter the first side of the triangle");
-            double.TryParse(Console.ReadLine(), out double a);
-            Console.WriteLine("Enter the second side of the triangle");
-            double.TryParse(Console.ReadLine(), out double b);
-            Console.WriteLine("Enter the third side of the triangle");
-            double.TryParse(Console.ReadLine(), out double c);
             if (param == "1")
             {
-                double p = a + b + c;
-                double S = Math.Sqrt(p / 2 * (p / 2 - a) * (p / 2 - b) * (p / 2 - c));
+                double S = 3 * Math.Sqrt(3) * R * R;
+                double p = 2 * S / R;
                 Console.WriteLine($"The area of triangle is {S}");
                 Console.WriteLine($"And the perimetr is {p}");
             }
-            else
+            else if(param=="2")
             {
-                double p = a + b + c;
+                double S = 3 * Math.Sqrt(3) * R * R;
+                double p = 2 * S / R;
                 Console.WriteLine($"The perimetr is {p}");
-                double S = Math.Sqrt(p / 2 * (p / 2 - a) * (p / 2 - b) * (p / 2 - c));
                 Console.WriteLine($"And the area of triangle is {S}");
             }
+            else
+                Console.WriteLine("You made a mistake in input");
         }
-        static void OutputDataOfCircle(string param)
+        static void OutputDataOfCircle(string param, double R)
         {
-            Console.WriteLine("Enter the radius of circle");
-            double.TryParse(Console.ReadLine(),out double R);
-            
             if (param == "1")
             {
                 double S = Math.PI * R * R;
@@ -68,37 +71,34 @@ namespace Module2__4
                 double P = 2 * Math.PI * R;
                 Console.WriteLine($"And the perimetr of circle is {P}");
             }
-            if(param=="2")
+            else if (param == "2")
             {
                 double P = 2 * Math.PI * R;
                 Console.WriteLine($"The perimetr of circle is {P}");
                 double S = Math.PI * R * R;
                 Console.WriteLine($"And the area of circle is {S}");
             }
-
+            else
+                Console.WriteLine("You made a mistake in input");
         }
-        static void OutputDataOfSquare(string param)
+        static void OutputDataOfSquare(string param, double R)
         {
-            Console.WriteLine("Enter the side of square");
-            double.TryParse(Console.ReadLine(), out double a);
-
             if (param == "1")
             {
-                double S = a*a;
+                double S = 4 * R * R;
                 Console.WriteLine($"The area of square is {S}");
-                double P = 4*a;
+                double P = 8 * R;
                 Console.WriteLine($"And the perimetr of square is {P}");
             }
-            if (param == "2")
+            else if (param == "2")
             {
-                double P = 4*a;
+                double P = 8 * R;
                 Console.WriteLine($"The perimetr of square is {P}");
-                double S = a*a;
+                double S = 4 * R * R;
                 Console.WriteLine($"And the area of square is {S}");
             }
-
+            else
+                Console.WriteLine("You made a mistake in input");
         }
-
     }
-
 }
