@@ -6,11 +6,8 @@ namespace Module2_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the first number");
-            string a = Console.ReadLine();
-            Console.WriteLine("Enter the second number");
-            string b= Console.ReadLine();
-            if (double.TryParse(a, out double num_1) && double.TryParse(b,out double num_2))
+            Console.WriteLine("Enter the first and second number ");
+            if (double.TryParse(Console.ReadLine(), out double num_1) && double.TryParse(Console.ReadLine(),out double num_2))
             {
                 num_1 = num_1 + num_2;
                 num_2 = num_1 - num_2;
