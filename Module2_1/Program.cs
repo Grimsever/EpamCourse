@@ -11,11 +11,11 @@ namespace Module2_1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the number of companies");
-            int N = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter value of tax");
-            double M = double.Parse(Console.ReadLine())/100.0;
+            double m = double.Parse(Console.ReadLine())/100.0;
             double income = 500;
-            double amountTax = income * M * N;
+            double amountTax = income * m * n;
             Console.WriteLine($"Amount tax for state {amountTax}");
 
         }
