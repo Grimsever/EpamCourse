@@ -7,8 +7,7 @@ namespace Module3_3
         static void Main (string[] args)
         {
             Console.WriteLine ("Enter the count of fibonacci numbers");
-            bool check=int.TryParse (Console.ReadLine (), out int countOfFibonacciNumbers);
-            if (check)
+            if (int.TryParse (Console.ReadLine (), out int countOfFibonacciNumbers))
             {
                 int temp;
                 if (countOfFibonacciNumbers > 0)
