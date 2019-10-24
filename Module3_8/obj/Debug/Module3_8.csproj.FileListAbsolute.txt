@@ -1,0 +1,6 @@
+D:\учеба\програмировани\epam\Module3_8\bin\Debug\Module3_8.exe.config
+D:\учеба\програмировани\epam\Module3_8\bin\Debug\Module3_8.exe
+D:\учеба\програмировани\epam\Module3_8\bin\Debug\Module3_8.pdb
+D:\учеба\програмировани\epam\Module3_8\obj\Debug\Module3_8.csprojAssemblyReference.cache
+D:\учеба\програмировани\epam\Module3_8\obj\Debug\Module3_8.exe
+D:\учеба\програмировани\epam\Module3_8\obj\Debug\Module3_8.pdb
