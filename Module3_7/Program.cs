@@ -7,8 +7,7 @@ namespace Module3_7
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the length of the array");
-            bool check = int.TryParse(Console.ReadLine(), out int length);
-            if (check && length > 0)
+            if (int.TryParse(Console.ReadLine(), out int length) && length > 0)
             {
                 int[] dataArray = new int[length];
                 Random random = new Random();
