@@ -7,10 +7,8 @@ namespace Module3_1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the first number");
-            bool checInputFirst=double.TryParse(Console.ReadLine(),out double firstNum);
             Console.WriteLine("Enter the second number");
-            bool checkInputSec=double.TryParse(Console.ReadLine(),out double secondNum);
-            if (checInputFirst && checkInputSec)
+            if (double.TryParse(Console.ReadLine(),out double firstNum) && double.TryParse(Console.ReadLine(),out double secondNum))
             {
                 double result = 0;
                 for (int i = 0; i < Math.Abs(firstNum); i++)
