@@ -7,8 +7,7 @@ namespace Module3_8
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the size of array");
-            bool check = int.TryParse(Console.ReadLine(), out int size);
-            if (size > 1 && check)
+            if (int.TryParse(Console.ReadLine(), out int size) && size > 1)
             {
                 var array = new int[size, size];
                 Console.WriteLine();
