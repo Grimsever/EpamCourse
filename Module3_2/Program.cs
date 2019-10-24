@@ -7,8 +7,7 @@ namespace Module3_2
         static void Main(string[] args)
         {
             Console.WriteLine("Enter count of natural numbers");
-            bool check=int.TryParse(Console.ReadLine(), out int countOfNumbers);
-            if (check)
+            if (int.TryParse(Console.ReadLine(), out int countOfNumbers))
             {
                 int count = 0;
                 int naturalNumber = 0;
