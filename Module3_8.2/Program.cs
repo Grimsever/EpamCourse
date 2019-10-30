@@ -17,7 +17,7 @@ namespace Module3_8._2
                 double xI = 0;
                 while (Math.Abs(end - start) > accuracy)
                 {
-                    double dx = (end - start) / 2;
+                    double dx = (end - start) / 2.0;
                     xI = start + dx;
                     if (Math.Sign(GetFunction(start)) != Math.Sign(GetFunction(xI)))
                     {

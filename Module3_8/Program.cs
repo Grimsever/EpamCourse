@@ -44,7 +44,7 @@ namespace Module3_8
                 {
                     for (int j = 0; j < array.GetLength(1); j++)
                     {
-                        Console.Write(array[i, j] + "\t");
+                        Console.Write($"{array[i, j]}\t");
                     }
                     Console.WriteLine();
                 }
