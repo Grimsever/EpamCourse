@@ -7,8 +7,7 @@ namespace Module3_6
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the length of array");
-            int length = int.Parse(Console.ReadLine());
-            if (length > 0)
+            if (int.TryParse(Console.ReadLine(),out int length) && length > 0)
             {
                 double[] dataArray = new double[length];
                 Random random = new Random();
@@ -30,7 +29,7 @@ namespace Module3_6
             }
             else
             {
-                Console.WriteLine("Array length can`t be less than zero");
+                Console.WriteLine("Array length can`t be less than zero, or you made mistake in inputting");
             }
         }
     }
