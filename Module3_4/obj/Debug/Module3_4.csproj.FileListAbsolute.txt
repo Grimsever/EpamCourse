@@ -4,3 +4,9 @@ D:\учеба\програмировани\epam\Module3_4\bin\Debug\Module3_4.pd
 D:\учеба\програмировани\epam\Module3_4\obj\Debug\Module3_4.csprojAssemblyReference.cache
 D:\учеба\програмировани\epam\Module3_4\obj\Debug\Module3_4.exe
 D:\учеба\програмировани\epam\Module3_4\obj\Debug\Module3_4.pdb
+D:\учеба\програмировани\epam\EpamCourse\Module3_4\bin\Debug\Module3_4.exe.config
+D:\учеба\програмировани\epam\EpamCourse\Module3_4\bin\Debug\Module3_4.exe
+D:\учеба\програмировани\epam\EpamCourse\Module3_4\bin\Debug\Module3_4.pdb
+D:\учеба\програмировани\epam\EpamCourse\Module3_4\obj\Debug\Module3_4.csprojAssemblyReference.cache
+D:\учеба\програмировани\epam\EpamCourse\Module3_4\obj\Debug\Module3_4.exe
+D:\учеба\програмировани\epam\EpamCourse\Module3_4\obj\Debug\Module3_4.pdb
