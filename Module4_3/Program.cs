@@ -7,29 +7,48 @@ namespace Module4_3
         static void Main(string[] args)
         {
             Console.WriteLine("Enter three numbers to addition");
-            int.TryParse(Console.ReadLine(), out int firstNumb);
-            int.TryParse(Console.ReadLine(), out int secNumb);
-            int.TryParse(Console.ReadLine(), out int thirdNumb);
-            GetNewNumberAfterAdd(ref firstNumb, ref secNumb, ref thirdNumb);
-            Console.WriteLine($"The result of addition new numbers: {firstNumb} {secNumb} {thirdNumb}");
-            Console.WriteLine($"Enter circle radius");
-            GetParametersOfCircle(double.Parse(Console.ReadLine()), out double area, out double length);
-            Console.WriteLine($"The circle has parameters for area: {area.ToString("F")} and length: {length.ToString("F")}");
-            Console.WriteLine("Enter the count of array elements");
-            int.TryParse(Console.ReadLine(), out int count);
-            double[] array = new double[count];
-            Console.WriteLine("Initail array");
-            var rnd = new Random();
-            for (int i = 0; i < count; i++)
+            if (int.TryParse(Console.ReadLine(), out int firstNumb) && int.TryParse(Console.ReadLine(), out int secNumb) && int.TryParse(Console.ReadLine(), out int thirdNumb))
             {
-                array[i] = rnd.Next(-10, 10);
-                Console.Write("{0} ",array[i]);
+                GetNewNumberAfterAdd(ref firstNumb, ref secNumb, ref thirdNumb);
+                Console.WriteLine($"The result of addition new numbers: {firstNumb} {secNumb} {thirdNumb}");
             }
-            double max = double.MinValue;
-            double min = double.MaxValue;
-            double sum = 0;
-            GetArrayParam(array, ref sum, ref max, ref min);
-            Console.WriteLine($"\nAmount of the array elements is {sum} max element is {max} min element is {min}");
+            else
+            {
+                Console.WriteLine("OOPS, you made a mistake in inputting");
+            }
+
+            Console.WriteLine("Enter circle radius");
+            if (double.TryParse(Console.ReadLine(), out double rad) && rad > 0)
+            {
+                GetParametersOfCircle(rad, out double area, out double length);
+                Console.WriteLine($"The circle has parameters for area: {area.ToString("F")} and length: {length.ToString("F")}");
+            }
+            else
+            {
+                Console.WriteLine("Radius can`t be less zero, or you made a mistake in inputting");
+            }
+            Console.WriteLine("Enter the count of array elements");
+            if (int.TryParse(Console.ReadLine(), out int count) && count > 0)
+            {
+                double[] array = new double[count];
+                Console.WriteLine("Initail array");
+                var rnd = new Random();
+                for (int i = 0; i < count; i++)
+                {
+                    array[i] = rnd.Next(-10, 10);
+                    Console.Write($"{array[i]} ");
+                }
+                double max = double.MinValue;
+                double min = double.MaxValue;
+                double sum = 0;
+                GetArrayParam(array, ref sum, ref max, ref min);
+                Console.WriteLine($"\nAmount of the array elements is {sum} max element is {max} min element is {min}");
+            }
+            else
+            {
+                Console.WriteLine("Array length can`t be less zero, or you made a mistake in inputting");
+            }
+            
         }
         private static void GetNewNumberAfterAdd(ref int first, ref int second, ref int third)
         {

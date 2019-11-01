@@ -7,26 +7,32 @@ namespace Module4_1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the count of numbers in array");
-            int.TryParse(Console.ReadLine(), out int count);
-            double[] array = new double[count];
-            Random rand = new Random();
-            Console.WriteLine("Initail array");
-            for (int i = 0; i < array.Length; i++)
+            if (int.TryParse(Console.ReadLine(), out int count) && count>0)
             {
-                array[i] = rand.Next(-10,10);
-                Console.Write($"{array[i]} ");
+                double[] array = new double[count];
+                Random rand = new Random();
+                Console.WriteLine("Initail array");
+                for (int i = 0; i < array.Length; i++)
+                {
+                    array[i] = rand.Next(-10, 10);
+                    Console.Write($"{array[i]} ");
+                }
+                double max = GetMaxArrayElement(array);
+                double min = GetMinArrayElement(array);
+                Console.WriteLine($"\nMaximum number in the array is {max}");
+                Console.WriteLine($"Minimum number in the array is {min}");
+                Console.WriteLine($"Sum of the array elemetns is {GetSumOfArrayElements(array)}");
+                Console.WriteLine($"\nThe difference between the maximum and minimum elements of array is {GetDifferenceBetweenMaxAndMin(max, min)}");
+                Console.WriteLine($"\nThe result after increase even elements on the maximum \nand decrease uneven elements on the minimum of initail array");
+                GetArrayAfterIncreaseAndDecrease(array, max, min);
+                for (int i = 0; i < array.Length; i++)
+                {
+                    Console.Write($"{array[i]} ");
+                }
             }
-            double max = GetMaxArrayElement(array);
-            double min = GetMinArrayElement(array);
-            Console.WriteLine($"\nMaximum number in the array is {max}");
-            Console.WriteLine($"Minimum number in the array is {min}");
-            Console.WriteLine($"Sum of the array elemetns is {GetSumOfArrayElements(array)}");
-            Console.WriteLine($"\nThe difference between the maximum and minimum elements of array is {GetDifferenceBetweenMaxAndMin(max,min)}");
-            Console.WriteLine($"\nThe result after increase even elements on the maximum \nand decrease uneven elements on the minimum of initail array");
-            GetArrayAfterIncreaseAndDecrease(array, max, min);
-            for (int i = 0; i < array.Length; i++)
+            else
             {
-                Console.Write($"{array[i]} ");
+                Console.WriteLine("You made mistake in inputting, or count can`t be less zero");
             }
         }
         private static double GetMaxArrayElement(double[] array)
