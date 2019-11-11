@@ -141,7 +141,7 @@ namespace Module5
         }
         static bool IsMove(int cord)
         {
-            if (cord <= field.GetLength(1) && cord >= 0)
+            if (cord < field.GetLength(1) && cord >= 0)
             {
                 return true;
             }
