@@ -1,0 +1,12 @@
+D:\учеба\програмировани\epam\Module3_8.2\obj\Debug\Module3_8.2.csprojAssemblyReference.cache
+D:\учеба\програмировани\epam\Module3_8.2\bin\Debug\Module3_8.2.exe.config
+D:\учеба\програмировани\epam\Module3_8.2\bin\Debug\Module3_8.2.exe
+D:\учеба\програмировани\epam\Module3_8.2\bin\Debug\Module3_8.2.pdb
+D:\учеба\програмировани\epam\Module3_8.2\obj\Debug\Module3_8.2.exe
+D:\учеба\програмировани\epam\Module3_8.2\obj\Debug\Module3_8.2.pdb
+D:\учеба\програмировани\epam\EpamCourse\Module3_8.2\bin\Debug\Module3_8.2.exe.config
+D:\учеба\програмировани\epam\EpamCourse\Module3_8.2\bin\Debug\Module3_8.2.exe
+D:\учеба\програмировани\epam\EpamCourse\Module3_8.2\bin\Debug\Module3_8.2.pdb
+D:\учеба\програмировани\epam\EpamCourse\Module3_8.2\obj\Debug\Module3_8.2.csprojAssemblyReference.cache
+D:\учеба\програмировани\epam\EpamCourse\Module3_8.2\obj\Debug\Module3_8.2.exe
+D:\учеба\програмировани\epam\EpamCourse\Module3_8.2\obj\Debug\Module3_8.2.pdb

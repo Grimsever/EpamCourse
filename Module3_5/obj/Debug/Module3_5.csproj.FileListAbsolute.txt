@@ -1,0 +1,12 @@
+C:\Users\furma\source\repos\Module3_5\bin\Debug\Module3_5.exe.config
+C:\Users\furma\source\repos\Module3_5\bin\Debug\Module3_5.exe
+C:\Users\furma\source\repos\Module3_5\bin\Debug\Module3_5.pdb
+C:\Users\furma\source\repos\Module3_5\obj\Debug\Module3_5.csprojAssemblyReference.cache
+C:\Users\furma\source\repos\Module3_5\obj\Debug\Module3_5.exe
+C:\Users\furma\source\repos\Module3_5\obj\Debug\Module3_5.pdb
+D:\учеба\програмировани\epam\Module3_5\bin\Debug\Module3_5.exe.config
+D:\учеба\програмировани\epam\Module3_5\bin\Debug\Module3_5.exe
+D:\учеба\програмировани\epam\Module3_5\bin\Debug\Module3_5.pdb
+D:\учеба\програмировани\epam\Module3_5\obj\Debug\Module3_5.csprojAssemblyReference.cache
+D:\учеба\програмировани\epam\Module3_5\obj\Debug\Module3_5.exe
+D:\учеба\програмировани\epam\Module3_5\obj\Debug\Module3_5.pdb
