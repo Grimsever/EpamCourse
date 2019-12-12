@@ -45,13 +45,12 @@ namespace HomeFinancialAssistant
         {
             if (double.TryParse(input, out double income) && income > 0)
             {
-                if (Data.count >= 1)
+                if (Data.count > 1)
                 {
-                    budget = data[Data.count - 1].actualBudget;
+                    budget = data[Data.count-2].actualBudget;
                     data.Add(new Data(name, budget, source, 0, income));
-                    Data.count++;
                 }
-                else if (Data.count == 0)
+                else if (Data.count == 1)
                 {
                     data[0].income = income;
                     data[0].source = source;
@@ -69,14 +68,13 @@ namespace HomeFinancialAssistant
         {
             if (double.TryParse(input, out double outlay) && outlay > 0)
             {
-                if (Data.count >= 1)
+                if (Data.count > 1)
                 {
-                    budget = data[Data.count - 1].actualBudget;
-                    Data.count++;
+                    budget = data[Data.count-2].actualBudget;
                     data.Add(new Data(name, budget, source, outlay, 0));
 
                 }
-                else if (Data.count == 0)
+                else if (Data.count == 1)
                 {
                     data[0].outlay = outlay;
                     data[0].source = source;

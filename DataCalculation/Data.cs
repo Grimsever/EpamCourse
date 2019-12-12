@@ -12,6 +12,7 @@
 
         public Data(string name, double budget)
         {
+            count++;
             this.userName = name;
             this.budget = budget;
             source = "";
@@ -21,6 +22,7 @@
         }
         public Data(string name, double budget, string source,double outlay, double income)
         {
+            count++;
             userName = name;
             this.budget = budget;
             this.source = source;
