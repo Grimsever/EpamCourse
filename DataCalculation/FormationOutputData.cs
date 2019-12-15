@@ -13,13 +13,13 @@ namespace DataCalculation
         }
         public string GetTable()
         {
-            string tableHeader = string.Format("Name    |Budget  |   Source/Purpose   |Outlay  |Income  |Actual  |\n");
+            string tableHeader = string.Format("Name    |Budget  |   Source/Purpose   |Outlay  |Income  |Income tax|Actual  |\n");
             string table= tableHeader;
             table += new string('-', tableHeader.Length - 1);
 
             for (int i = 0; i < data.Count; i++)
             {
-                table += string.Format($"\n{data[i].userName,-8}|{data[i].budget,-8}|{data[i].source,-20}|{data[i].outlay,-8}|{data[i].income,-8}|{data[i].actualBudget,-8}|\n");
+                table += string.Format($"\n{data[i].userName,-8}|{data[i].budget,-8}|{data[i].source,-20}|{data[i].outlay,-8}|{data[i].income,-8}|{data[i].IncomeTax,-10}|{data[i].actualBudget,-8}|\n");
                 table += new string('-', tableHeader.Length - 1);
             }
 

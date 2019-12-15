@@ -3,3 +3,8 @@ D:\study\програмировани\epam\DataCalculation\bin\Debug\DataCalcula
 D:\study\програмировани\epam\DataCalculation\obj\Debug\DataCalculation.csprojAssemblyReference.cache
 D:\study\програмировани\epam\DataCalculation\obj\Debug\DataCalculation.dll
 D:\study\програмировани\epam\DataCalculation\obj\Debug\DataCalculation.pdb
+D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\DataCalculation.dll
+D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\DataCalculation.pdb
+D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.csprojAssemblyReference.cache
+D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.dll
+D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.pdb

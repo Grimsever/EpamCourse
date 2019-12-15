@@ -7,3 +7,12 @@ D:\study\програмировани\epam\HomeFinancialAssistant\obj\Debug\Home
 D:\study\програмировани\epam\HomeFinancialAssistant\bin\Debug\DataCalculation.dll
 D:\study\програмировани\epam\HomeFinancialAssistant\bin\Debug\DataCalculation.pdb
 D:\study\програмировани\epam\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.csproj.CopyComplete
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\HomeFinancialAssistant.exe.config
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\HomeFinancialAssistant.exe
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\HomeFinancialAssistant.pdb
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\DataCalculation.dll
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\DataCalculation.pdb
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.csprojAssemblyReference.cache
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.csproj.CopyComplete
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.exe
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.pdb
