@@ -46,14 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataInput.cs" />
-    <Compile Include="DataOutput.cs" />
+    <Compile Include="HomeUi\HandlerUI.cs" />
+    <Compile Include="HomeUi\IHandlerUI.cs" />
+    <Compile Include="HomeUi\IUI.cs" />
+    <Compile Include="HomeUi\UI.cs" />
+    <Compile Include="InputAndOutPut\IInputData.cs" />
+    <Compile Include="InputAndOutPut\InputData.cs" />
+    <Compile Include="InputAndOutPut\IOutputData.cs" />
+    <Compile Include="InputAndOutPut\OutputData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

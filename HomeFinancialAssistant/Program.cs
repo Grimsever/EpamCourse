@@ -1,4 +1,6 @@
-﻿namespace HomeFinancialAssistant
+﻿using HomeFinancialAssistant.HomeUi;
+
+namespace HomeFinancialAssistant
 {
     class Program
     {
