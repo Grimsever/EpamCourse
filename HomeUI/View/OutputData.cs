@@ -2,14 +2,14 @@
 using DataCalculation.Model;
 using DataCalculation.ValidationInput;
 
-namespace HomeFinancialAssistant.InputAndOutPut
+namespace HomeUI.View
 {
-    public class OutputData : IOutputData<string>
+    internal class OutputData : IOutputData<string>
     {
         public IAnalizisOfData<string> AnalizisOfData { get; set ; }
-        public OutputData(IUserData userData, IValidation<double> validation)
+        public OutputData(IAnalizisOfData<string> analiz)
         {
-            AnalizisOfData = new DataAnalizis(userData,validation);
+            AnalizisOfData = analiz;
         }
         public void WriteConsoleError(string err)
         {

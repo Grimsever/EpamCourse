@@ -9,7 +9,7 @@
         Exit,
         Mistacke,
     }
-    public class Choice
+    public class Choosee
     {
         public Choices ConvertStringToChoice(string input)
         {

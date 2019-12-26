@@ -1,7 +1,6 @@
 ﻿using DataCalculation.ValidationInput;
-using HomeFinancialAssistant.InputAndOutPut;
 
-namespace HomeFinancialAssistant.HomeUi
+namespace HomeUI.View
 {
     public interface IUI<T>
     {

@@ -36,6 +36,12 @@
     <Reference Include="DataCalculation">
       <HintPath>..\DataCalculation\bin\Debug\DataCalculation.dll</HintPath>
     </Reference>
+    <Reference Include="HomeUI">
+      <HintPath>..\HomeUI\bin\Debug\HomeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,19 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomeUi\HandlerUI.cs" />
-    <Compile Include="HomeUi\IHandlerUI.cs" />
-    <Compile Include="HomeUi\IUI.cs" />
-    <Compile Include="HomeUi\UI.cs" />
-    <Compile Include="InputAndOutPut\IInputData.cs" />
-    <Compile Include="InputAndOutPut\InputData.cs" />
-    <Compile Include="InputAndOutPut\IOutputData.cs" />
-    <Compile Include="InputAndOutPut\OutputData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

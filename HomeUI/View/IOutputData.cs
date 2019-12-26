@@ -1,6 +1,6 @@
 ﻿using DataCalculation.Analizis;
 
-namespace HomeFinancialAssistant.InputAndOutPut
+namespace HomeUI.View
 {
     public interface IOutputData<T>
     {

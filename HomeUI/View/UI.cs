@@ -1,20 +1,19 @@
-﻿
-using DataCalculation.Model;
+﻿using DataCalculation.Model;
 using DataCalculation.ValidationInput;
-using HomeFinancialAssistant.InputAndOutPut;
+using Ninject;
 using System;
 
-namespace HomeFinancialAssistant.HomeUi
+namespace HomeUI.View
 {
     public class UI : IUI<string>
     {
-        Choice choice = new Choice();
+        readonly Choosee choice = new Choosee();
         public IValidation<double> Validation { get; set; }
-
         public IInputData InputData { get; set; }
         public IOutputData<string> OutputData { get; set; }
         public IUserData UserData { get; set; }
         public IHandlerUI Handler { get; set; }
+        
         public string thirdPage;
         public string MainPage { get => "Please enter your name  \nFor exit enter: exit or e"; }
         public string SecondPage
@@ -25,16 +24,15 @@ namespace HomeFinancialAssistant.HomeUi
                     "\nTo show the result of your budget analysis, enter 3. " +
                     "\nTo exit enter 'exit'/'e'";
         }
-        public string ThirdPage { get => thirdPage; set => value=thirdPage; }
+        public string ThirdPage { get => thirdPage; set => _ = thirdPage; }
 
-        public UI()
+        public UI(IUserData userData,IHandlerUI handler, IInputData input, IOutputData<string> output,IValidation<double> validation)
         {
-            UserData = new UserData();
-            Handler = new HandlerUI();
-            Validation = new Validation();
-            InputData = new InputData(UserData);
-            OutputData = new OutputData(UserData,Validation);
-            GetMainPage();
+            Validation = validation;
+            UserData = userData;
+            Handler = handler;
+            InputData = input;
+            OutputData = output;
         }
 
         public void GetThirdPage(out Choices input)

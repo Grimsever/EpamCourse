@@ -1,4 +1,4 @@
-﻿namespace HomeFinancialAssistant.InputAndOutPut
+﻿namespace HomeUI.View
 {
     public interface IInputData
     {

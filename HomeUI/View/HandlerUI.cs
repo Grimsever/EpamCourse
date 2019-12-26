@@ -1,15 +1,14 @@
-﻿
-using DataCalculation.Model;
+﻿using DataCalculation.Model;
 
-namespace HomeFinancialAssistant.HomeUi
+namespace HomeUI.View
 {
-    public class HandlerUI : IHandlerUI
+    internal class HandlerUI : IHandlerUI
     {
-        public Choice _Choices { get ; set ; }
+        public Choosee Choices { get ; set ; }
 
         public HandlerUI()
         {
-            _Choices = new Choice();
+            Choices = new Choosee();
         }
 
 
@@ -17,7 +16,7 @@ namespace HomeFinancialAssistant.HomeUi
         {
             switch (choice)
             {
-                case Choices.Exit:
+                case DataCalculation.Model.Choices.Exit:
                     return false;
                 default:
                     return true;
@@ -28,13 +27,13 @@ namespace HomeFinancialAssistant.HomeUi
         {
             switch (choice)
             {
-                case Choices.Exit:
+                case DataCalculation.Model.Choices.Exit:
                     return false;
-                case Choices.Income:
+                case DataCalculation.Model.Choices.Income:
                     return true;
-                case Choices.Outlay:
+                case DataCalculation.Model.Choices.Outlay:
                     return true;
-                case Choices.ThirdPage:
+                case DataCalculation.Model.Choices.ThirdPage:
                     return true;
                 default:
                     return true;
@@ -45,9 +44,9 @@ namespace HomeFinancialAssistant.HomeUi
         {
             switch (choice)
             {
-                case Choices.Exit:
+                case DataCalculation.Model.Choices.Exit:
                     return false;
-                case Choices.GoBack:
+                case DataCalculation.Model.Choices.GoBack:
                     return false;
                 default:
                     return true;

@@ -13,7 +13,6 @@ namespace DataCalculation.Analizis
         {
             UserData = dataUser;
             Validation = validation;
-
         }
 
         public string GetInfoOfSpentMaxMoney()

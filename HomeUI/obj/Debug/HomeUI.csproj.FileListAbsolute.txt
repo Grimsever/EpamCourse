@@ -1,0 +1,10 @@
+D:\study\програмировани\epam\EpamCourse\HomeUI\obj\Debug\HomeUI.csprojAssemblyReference.cache
+D:\study\програмировани\epam\EpamCourse\HomeUI\bin\Debug\HomeUI.dll
+D:\study\програмировани\epam\EpamCourse\HomeUI\bin\Debug\HomeUI.pdb
+D:\study\програмировани\epam\EpamCourse\HomeUI\bin\Debug\DataCalculation.dll
+D:\study\програмировани\epam\EpamCourse\HomeUI\bin\Debug\Ninject.dll
+D:\study\програмировани\epam\EpamCourse\HomeUI\bin\Debug\DataCalculation.pdb
+D:\study\програмировани\epam\EpamCourse\HomeUI\bin\Debug\Ninject.xml
+D:\study\програмировани\epam\EpamCourse\HomeUI\obj\Debug\HomeUI.csproj.CopyComplete
+D:\study\програмировани\epam\EpamCourse\HomeUI\obj\Debug\HomeUI.dll
+D:\study\програмировани\epam\EpamCourse\HomeUI\obj\Debug\HomeUI.pdb

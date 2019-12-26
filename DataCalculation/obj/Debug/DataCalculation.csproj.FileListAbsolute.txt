@@ -8,3 +8,8 @@ D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\
 D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.csprojAssemblyReference.cache
 D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.dll
 D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.pdb
+D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\Ninject.dll
+D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\Ninject.xml
+D:\study\програмировани\epam\EpamCourse\DataCalculation\obj\Debug\DataCalculation.csproj.CopyComplete
+D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\HomeUI.dll
+D:\study\програмировани\epam\EpamCourse\DataCalculation\bin\Debug\HomeUI.pdb

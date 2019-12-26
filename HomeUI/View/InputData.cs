@@ -1,8 +1,8 @@
 ﻿using DataCalculation.Model;
 
-namespace HomeFinancialAssistant.InputAndOutPut
+namespace HomeUI.View
 {
-    public class InputData : IInputData
+    internal class InputData : IInputData
     {
         public IUserData DataUser { get; set; }
         public InputData(IUserData userData)

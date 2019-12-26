@@ -16,3 +16,7 @@ D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj
 D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.csproj.CopyComplete
 D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.exe
 D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\obj\Debug\HomeFinancialAssistant.pdb
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\Ninject.dll
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\Ninject.xml
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\HomeUI.dll
+D:\study\програмировани\epam\EpamCourse\HomeFinancialAssistant\bin\Debug\HomeUI.pdb

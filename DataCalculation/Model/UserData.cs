@@ -1,4 +1,5 @@
 ﻿using DataCalculation.ValidationInput;
+using Ninject;
 using System.Collections.Generic;
 
 namespace DataCalculation.Model
@@ -9,12 +10,13 @@ namespace DataCalculation.Model
         public List<IData> Datas { get; set; }
         public double InitailBudget { get; set; }
 
+        [Inject]
         private IValidation<double> validation;
 
-        public UserData()
+        public UserData(IValidation<double> valid)
         {
+            validation = valid;
             Datas = new List<IData>();
-            validation = new Validation();
         }
 
         public IData CreateNewNote(double income, double outlay, string source)
