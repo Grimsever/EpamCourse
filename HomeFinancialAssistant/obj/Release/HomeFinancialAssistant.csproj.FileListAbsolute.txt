@@ -1,0 +1,9 @@
+D:\study\програмировани\epam\HomeFinancialAssistant\bin\Release\HomeFinancialAssistant.exe.config
+D:\study\програмировани\epam\HomeFinancialAssistant\bin\Release\HomeFinancialAssistant.exe
+D:\study\програмировани\epam\HomeFinancialAssistant\bin\Release\HomeFinancialAssistant.pdb
+D:\study\програмировани\epam\HomeFinancialAssistant\bin\Release\DataCalculation.dll
+D:\study\програмировани\epam\HomeFinancialAssistant\bin\Release\DataCalculation.pdb
+D:\study\програмировани\epam\HomeFinancialAssistant\obj\Release\HomeFinancialAssistant.csprojAssemblyReference.cache
+D:\study\програмировани\epam\HomeFinancialAssistant\obj\Release\HomeFinancialAssistant.csproj.CopyComplete
+D:\study\програмировани\epam\HomeFinancialAssistant\obj\Release\HomeFinancialAssistant.exe
+D:\study\програмировани\epam\HomeFinancialAssistant\obj\Release\HomeFinancialAssistant.pdb
