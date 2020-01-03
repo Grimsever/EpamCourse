@@ -14,8 +14,6 @@ namespace DataCalculation.Control
             this.Bind<IUserData>().To<UserData>();
             this.Bind<IValidation<double>>().To<Validation>();
             this.Bind<IAnalizisOfData<string>>().To<DataAnalizis>();
-             
-           // this.Bind<IUI<string>>().To<UI>();
 
         }
     }
