@@ -1,0 +1,8 @@
+D:\study\програмировани\epam\DataAnaliz\bin\Debug\DataAnaliz.dll
+D:\study\програмировани\epam\DataAnaliz\bin\Debug\DataAnaliz.pdb
+D:\study\програмировани\epam\DataAnaliz\bin\Debug\DataUserModel.dll
+D:\study\програмировани\epam\DataAnaliz\bin\Debug\DataUserModel.pdb
+D:\study\програмировани\epam\DataAnaliz\obj\Debug\DataAnaliz.csprojAssemblyReference.cache
+D:\study\програмировани\epam\DataAnaliz\obj\Debug\DataAnaliz.csproj.CopyComplete
+D:\study\програмировани\epam\DataAnaliz\obj\Debug\DataAnaliz.dll
+D:\study\програмировани\epam\DataAnaliz\obj\Debug\DataAnaliz.pdb

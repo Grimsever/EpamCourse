@@ -1,0 +1,5 @@
+D:\study\програмировани\epam\DataOfUser\bin\Debug\DataUserModel.dll
+D:\study\програмировани\epam\DataOfUser\bin\Debug\DataUserModel.pdb
+D:\study\програмировани\epam\DataOfUser\obj\Debug\DataUserModel.csprojAssemblyReference.cache
+D:\study\програмировани\epam\DataOfUser\obj\Debug\DataUserModel.dll
+D:\study\програмировани\epam\DataOfUser\obj\Debug\DataUserModel.pdb
