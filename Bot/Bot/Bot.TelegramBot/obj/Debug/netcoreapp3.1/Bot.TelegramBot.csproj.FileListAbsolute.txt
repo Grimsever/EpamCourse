@@ -1,0 +1,17 @@
+C:\Users\Roman_Kurpachenko\source\repos\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.TelegramBot.deps.json
+C:\Users\Roman_Kurpachenko\source\repos\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.TelegramBot.dll
+C:\Users\Roman_Kurpachenko\source\repos\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.AssemblyInfoInputs.cache
+C:\Users\Roman_Kurpachenko\source\repos\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.AssemblyInfo.cs
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.TelegramBot.deps.json
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.TelegramBot.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.TelegramBot.pdb
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.Commands.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Common.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Bot.Commands.pdb
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\bin\Debug\netcoreapp3.1\Common.pdb
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.csprojAssemblyReference.cache
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.AssemblyInfoInputs.cache
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.AssemblyInfo.cs
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.csproj.CopyComplete
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.TelegramBot\obj\Debug\netcoreapp3.1\Bot.TelegramBot.pdb
