@@ -1,0 +1,13 @@
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Bot.ConsoleBot.deps.json
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Bot.ConsoleBot.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Bot.ConsoleBot.pdb
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Bot.Commands.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Common.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Bot.Commands.pdb
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\bin\Debug\netcoreapp3.1\Common.pdb
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\obj\Debug\netcoreapp3.1\Bot.ConsoleBot.csprojAssemblyReference.cache
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\obj\Debug\netcoreapp3.1\Bot.ConsoleBot.AssemblyInfoInputs.cache
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\obj\Debug\netcoreapp3.1\Bot.ConsoleBot.AssemblyInfo.cs
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\obj\Debug\netcoreapp3.1\Bot.ConsoleBot.csproj.CopyComplete
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\obj\Debug\netcoreapp3.1\Bot.ConsoleBot.dll
+D:\study\програмировани\epam\Bot\Bot\Bot.ConsoleBot\obj\Debug\netcoreapp3.1\Bot.ConsoleBot.pdb

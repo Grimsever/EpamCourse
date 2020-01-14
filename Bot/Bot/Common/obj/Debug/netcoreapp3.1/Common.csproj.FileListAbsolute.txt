@@ -1,0 +1,8 @@
+D:\study\програмировани\epam\Bot\Bot\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+D:\study\програмировани\epam\Bot\Bot\Common\bin\Debug\netcoreapp3.1\Common.dll
+D:\study\програмировани\epam\Bot\Bot\Common\bin\Debug\netcoreapp3.1\Common.pdb
+D:\study\програмировани\epam\Bot\Bot\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+D:\study\програмировани\epam\Bot\Bot\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\study\програмировани\epam\Bot\Bot\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\study\програмировани\epam\Bot\Bot\Common\obj\Debug\netcoreapp3.1\Common.dll
+D:\study\програмировани\epam\Bot\Bot\Common\obj\Debug\netcoreapp3.1\Common.pdb
