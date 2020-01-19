@@ -1,0 +1,13 @@
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.exe.config
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.exe
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.pdb
+D:\study\програмировани\epam\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\study\програмировани\epam\Calculator\obj\Debug\Calculator.exe
+D:\study\програмировани\epam\Calculator\obj\Debug\Calculator.pdb
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.Model.dll
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.Model.pdb
+D:\study\програмировани\epam\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.Realize.dll
+D:\study\програмировани\epam\Calculator\bin\Debug\Ninject.dll
+D:\study\програмировани\epam\Calculator\bin\Debug\Calculator.Realize.pdb
+D:\study\програмировани\epam\Calculator\bin\Debug\Ninject.xml

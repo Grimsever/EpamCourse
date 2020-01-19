@@ -1,0 +1,5 @@
+D:\study\програмировани\epam\Calculator.Model\bin\Debug\Calculator.Model.dll
+D:\study\програмировани\epam\Calculator.Model\bin\Debug\Calculator.Model.pdb
+D:\study\програмировани\epam\Calculator.Model\obj\Debug\Calculator.Model.csprojAssemblyReference.cache
+D:\study\програмировани\epam\Calculator.Model\obj\Debug\Calculator.Model.dll
+D:\study\програмировани\epam\Calculator.Model\obj\Debug\Calculator.Model.pdb
